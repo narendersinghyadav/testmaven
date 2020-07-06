@@ -44,7 +44,7 @@
 						<manifest>
 
 							<!-- give full qualified name of your main class -->
-							<mainClass>testmaven.testmaven.App</mainClass>
+							<mainClass>com.testmaven.client.App</mainClass>
 
 						</manifest>
 					</archive>

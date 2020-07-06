@@ -1,4 +1,4 @@
-package testmaven.testmaven;
+package com.testmaven.client;
 
 import static org.junit.Assert.*;
 
