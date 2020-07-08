@@ -17,22 +17,18 @@ import testmaven1.testmaven1.Sum;
  */
 public class SumTest {
 
-	/** static reference for Sum object */
 	private static Sum s;
 	
-	/** Initialize sum object */
 	@BeforeClass
 	public static  void initSum() {
 		s=new Sum();
 	}
 	
-	/** Before every unit test case executed */
 	@Before
 	public void beforeSum() {
 		System.out.println("before test execution");
 	}
 	
-	/** After every unit test case executed */
 	@After
 	public void afterTest() {
 		System.out.println("after test execution");

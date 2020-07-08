@@ -14,15 +14,12 @@ import testmaven1.testmaven1.Sum;
  */
 public class App {
 	
-	/** Main method */
 	public static void main( String[] args ) {
 		System.out.println( "Hello World!" );
 
-		/** Sum class object and functionality*/
 		Sum s=new Sum();
 		System.out.println(s.calculateSum(100, 20));
 
-		/** Salary of principal and teacher */
 		SalaryInterface principalsalary=new PrincipalOperation();
 		SalaryInterface teachersalary=new TeacherOperation();
 		System.out.println(teachersalary.calculateSalary(10) );

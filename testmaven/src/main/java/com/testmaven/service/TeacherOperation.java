@@ -9,13 +9,7 @@ package com.testmaven.service;
  */
 public class TeacherOperation implements SalaryInterface{
 
-	/** 
-	 * calculate teacher salary which is 5 times the number of hours worked 
-	 * @param hours number of hours teacher worked
-	 */
 	public int calculateSalary(int hours) {
-		
-		//return 5 times hour
 		return hours*5;
 	}
 }

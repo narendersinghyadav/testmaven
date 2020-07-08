@@ -8,15 +8,12 @@ package com.testmaven.model;
  */
 public class Teacher {
 	
-	/** salary of teacher */
 	private int salary;
 
-	/** getter for salary variable */
 	public int getSalary() {
 		return salary;
 	}
 
-	/** setter for salary variable */
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}

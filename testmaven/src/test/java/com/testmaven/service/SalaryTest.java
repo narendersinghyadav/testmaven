@@ -15,26 +15,21 @@ import org.junit.Test;
  */
 public class SalaryTest {
 
-	/** class instance reference of principal salary */
 	private static SalaryInterface principalsalary;
 
-	/** class instance reference of teacher salary */
 	private static SalaryInterface teachersalary;
 
-	/** Before class -static method to create objects */
 	@BeforeClass
 	public static void initSalary() {
 		principalsalary=new PrincipalOperation();
 		teachersalary=new TeacherOperation();
 	}
 
-	/** before each  test method executed */
 	@Before
 	public void beforeExecution() {
 		System.out.println("before execution");
 	}
 
-	/** After each test method is executed */
 	@After
 	public void afterExecution() {
 		System.out.println("after execution of testcsases");
